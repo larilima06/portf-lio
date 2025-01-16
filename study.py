@@ -22,3 +22,12 @@ if xp == 10000:
 	xp = "radiante"
 print("Olá, " + nomeHéroi + "! Seu nível de experiência é " + xp + ".")
 
+def vitorias():
+	vitórias = int(input("Digite o número de vitórias: "))
+	if vitórias < 10:
+		print("Você é um jogador iniciante.")
+	if vitórias >= 10 and vitórias < 20:
+		print("Você é um jogador experiente.")
+	if vitórias >= 20:
+		print("Você é um jogador veterano.")
+vitorias()
