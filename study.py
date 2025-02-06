@@ -27,7 +27,7 @@ def vitorias():
 	if vitórias < 10:
 		print("Você é um jogador iniciante.")
 	if vitórias >= 10 and vitórias < 20:
-		print("Você é um jogador experiente.")
+		print("Você é um jogador fodastico.")
 	if vitórias >= 20:
 		print("Você é um jogador veterano.")
 vitorias()
