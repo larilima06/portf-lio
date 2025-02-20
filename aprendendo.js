@@ -161,4 +161,15 @@ class Pessoa {
         console.log('Meu nome é ' + this.nome);
     }
 }
+http: interação cliente servidor
+existe a requisição de dados que estão sendo buscadas 
+o browser é o cliente
+url e method : 
+ip: 
+method: GET PATH POST DELETE
+PATH :É O PACOTE QUE CARREGA TODOS OS DADOS DO JSON
+NO PRÓPRIO PATH CONSEGUE PASSAR OS DADOS
+Na query string é possivel passar os filtros,se por exemplo fosse um GET.
+Neste caso passa os argumentos para o http que vão filtrar corretamente.
+Headers : 
 
