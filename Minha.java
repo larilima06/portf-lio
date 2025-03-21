@@ -147,3 +147,6 @@ numeros[4] = 50;
 for (int i = 0; i < numeros.length; i++) {
     System.out.println(numeros[i]);
 }'
+// try|catch|finally, tem a finalidade de observar as excessões
+são utilizados quando o código não rodade de primeira e utiliza uma exceção para ter funcionalidade.
+// as exceções são hierarquizadas para serem melhores utilizadas.
